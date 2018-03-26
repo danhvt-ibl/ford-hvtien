@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d5bca48e56bbf3a25645858fcab9c285",
+    "content-hash": "dfdc9fe32b73252ca72f402ce11a70ee",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1263,6 +1263,39 @@
                 "uuid"
             ],
             "time": "2018-01-20T00:28:24+00:00"
+        },
+        {
+            "name": "socieboy/alerts",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/socieboy/alerts.git",
+                "reference": "7d4c475ba24013cf2d17f91dcb3d711211e2ec70"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/socieboy/alerts/zipball/7d4c475ba24013cf2d17f91dcb3d711211e2ec70",
+                "reference": "7d4c475ba24013cf2d17f91dcb3d711211e2ec70",
+                "shasum": ""
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "Socieboy\\Alerts\\": "/src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Francisco Sepulveda",
+                    "email": "socieboy@gmail.com"
+                }
+            ],
+            "description": "Laravel Alerts with SweetAlerts",
+            "time": "2015-11-16T01:11:17+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3967,7 +4000,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "socieboy/alerts": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
